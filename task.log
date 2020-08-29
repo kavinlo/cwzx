@@ -1,0 +1,2149 @@
+
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+
+Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `400 Bad Request` response:
+<h1>Bad Request (Invalid Hostname)</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(tr in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `400 Bad Request` response:
+<h1>Bad Request (Invalid Hostname)</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(tr in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-05 06:17:27 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-06 06:15:30 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-07 06:16:23 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+
+Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-08 06:21:57 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+
+Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-09 06:15:39 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+
+Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-10 06:16:33 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-12 06:18:24 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+
+Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-13 06:15:24 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-14 06:21:01 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-15 06:16:19 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-16 06:17:52 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-17 06:17:59 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-18 06:17:20 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-19 06:17:12 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+
+Fatal error: Uncaught GuzzleHttp\Exception\ConnectException: cURL error 6: Could not resolve host: cwzx.shdjt.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:200
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Ob in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 200
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-20 06:19:15 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-21 06:20:06 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-22 06:19:47 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-23 06:18:51 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+
+Fatal error: Uncaught GuzzleHttp\Exception\RequestException: cURL error 56: Recv failure: Connection reset by peer (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:201
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(O in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 201
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-24 06:18:22 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 104
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 105
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 106
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 107
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 108
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 109
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 124
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 125
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 126
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 127
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 128
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 129
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 144
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 145
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 146
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 147
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 148
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 149
+PHP Notice:  Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+
+Notice: Undefined offset: 9 in /var/www/html/cwzx/other_set.php on line 165
+PHP Notice:  Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+
+Notice: Undefined offset: 10 in /var/www/html/cwzx/other_set.php on line 166
+PHP Notice:  Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+
+Notice: Undefined offset: 12 in /var/www/html/cwzx/other_set.php on line 167
+PHP Notice:  Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+
+Notice: Undefined offset: 13 in /var/www/html/cwzx/other_set.php on line 168
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 169
+PHP Notice:  Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+Notice: Undefined offset: 14 in /var/www/html/cwzx/other_set.php on line 170
+
+ 2020-08-25 06:20:51 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+ 2020-08-26 06:15:39 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+ 2020-08-27 06:16:38 ----  缓存完成 
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+Fatal error: Uncaught GuzzleHttp\Exception\ServerException: Server error: `GET http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0` resulted in a `503 Service Unavailable` response:
+<h1>Service Unavailable</h1>
+ in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/cwzx/vendor/guzzlehttp/promises/src/Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true) in /var/www/html/cwzx/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+
+ 2020-08-28 06:16:47 ----  缓存完成 
+http://cwzx.shdjt.com/cwcx.asp?gdmc=%C1%D6%D4%B0
